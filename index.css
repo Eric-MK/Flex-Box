@@ -1,0 +1,36 @@
+.container {
+ width: 900px;
+ height: 400px;
+ border: 2px solid red;
+ display: flex;
+ justify-content: space-evenly;  /* align horizontally */
+ align-items: ; /* vertically */
+ /* flex-direction: row;  *//* by default it is row. values(row, column, row-reverse ) */
+/* flex-wrap: wrap;  *//* enables resizing of the flex cointainer */
+
+flex-flow: row wrap;/* short cut for flex direction and and flex flow */
+
+align-content: space-evenly; /* aligns the rows value flex start, flex end, center ,space-evenly */ 
+ gap: ;
+
+
+
+}
+
+.box{
+    
+    background-color: black;
+    color: white;
+
+    /* border: 3px solid red; */
+    width: 100px;
+    height: 50px;
+    padding: 4px;
+
+    display: flex;/* align element at the center of a container */
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
